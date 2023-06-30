@@ -43,7 +43,28 @@ body {
 	src: url('../fonts/HelveticaNeueLTStd-Md.eot?#iefix') format('embedded-opentype'),
 		url('../fonts/HelveticaNeueLTStd-Md.woff') format('woff'),
 		url('../fonts/HelveticaNeueLTStd-Md.ttf')  format('truetype');
-	font-weight: 500;
+	font-weight: 400;
+	line-height: 9.6px;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	src: url('../fonts/HelveticaNeue67MediumCondensed.otf');
+	src: url('../fonts/HelveticaNeue67MediumCondensed.otf') format('embedded-opentype'),
+		url('../fonts/HelveticaNeue67MediumCondensed.otf') format('woff'),
+		url('../fonts/HelveticaNeue67MediumCondensed.otf')  format('truetype');
+	font-weight: 400;
+	line-height: 9.6px;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Md-regular';
+	src: url('../fonts/HelveticaNeueRegular.otf');
+	src: url('../fonts/HelveticaNeueRegular.otf') format('embedded-opentype'),
+		url('../fonts/HelveticaNeueRegular.otf') format('woff'),
+		url('../fonts/HelveticaNeueRegular.otf')  format('truetype');
+	font-weight: 400;
+	line-height: 9.6px;
 	font-style: normal;
 }
 
@@ -79,23 +100,53 @@ footer .container-fluid {
 .title-section{
 	display: flex;
     flex-direction: column;
+	align-items: center;
 }
 
  .title-section h1 {
-	font-family: 'Helvetica Neue LT-Std';
+	font-family: 'HelveticaNeueLTStd-Md-regular';
 	font-size: 3rem;
 	color: #ffffff;
+	margin-bottom: 1%;
+	font-weight:lighter;
+	letter-spacing: 1px;
 }
 .title-section h2 {
-	font-family: 'Helvetica Neue LT-Std';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 4rem;
 	color: #ffffff;
+	margin-top: 0;
+	letter-spacing: 1px;
 }
 .title-section h3 {
-	font-family: 'Helvetica Neue LT-Std';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 2.5rem;
 	color: #ffffff;
-	margin-left: 1rem;
+	margin-left: 2rem;
+	letter-spacing: 1px;
+	font-weight: 100;
+	margin-top: 0;
+}
+.title-section p{
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 4rem;
+	color: #ffffff;
+	margin-top: 0;
+	margin-left: 2rem;
+}
+
+.title-section-color h1{
+	color: #1a4b6b;
+}
+.title-section-color h2{
+	color:#1a4b6b;
+	font-size: 3rem;
+}
+.title-section-color h3{
+	color: #1a4b6b;
+}
+.title-section-color p{
+	color: #1a4b6b;
 }
 .divTiulos{
 	display: flex;
@@ -292,7 +343,7 @@ button {
 
 .blue-btn {
 	border: #428daa 1px solid;
-	background: #428daa;	
+	background: #428daa;
 }
 
 .blue-btn:hover {
@@ -389,7 +440,11 @@ button {
     width: 50%;
 }
 .divParrafo h4 {
-	font-size: 30px;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 5rem;
+	color: #ffffff;
+	margin-top: 0;
+	letter-spacing: 1px;
 }
 .divParrafo h5 {
 	font-size: 20px;
@@ -426,13 +481,14 @@ button {
 .divIngresar {
 	display: flex;
     align-items: center;
-	font-family: 'Helvetica Neue LT-Std';
-	font-size: 25px;
 }
 .divIngresar h6{
 	color: white;
 	text-decoration: none;
-	font-size: 25px;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+	
 }
 .divIngresar img {
 	width: 70%;
@@ -457,7 +513,7 @@ button {
 	margin-bottom: 1rem;
 	font-family: 'Helvetica Neue LT-Std';
 	font-size: 2rem;
-	line-height: 5rem;	
+	line-height: 5rem;
 }
 
 .nav-equipos ul li.current,
@@ -491,15 +547,14 @@ button {
 }
 
 h2.name {
-	
 	color: #1a4b6b;
-	font-family: 'Helvetica Neue LT Std';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 2.25rem;
 	line-height: 2.25rem;
 }
 
 h3.brand {
-	font-family: 'Helvetica Neue LT-Std';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 1.75rem;
 	line-height: 1.75rem;
 	color: #1a4b6b;
@@ -520,7 +575,7 @@ hr.bolder-line {
 }
 
 .vip {
-	font-family: 'Helvetica Neue LT-Std';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 1.75rem;
 	color: #1a4b6b;
 	line-height:2rem;
@@ -528,9 +583,10 @@ hr.bolder-line {
 
 .title-list,
 .description {
-	font-family: 'HelveticaNeueLTStd-Md';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 1.7rem;
 	color: #1a4b6b;
+	letter-spacing: 1px;
 }
 
 .description {
@@ -539,22 +595,24 @@ hr.bolder-line {
 }
 
 .description li {
-	list-style: none; 
+	list-style: none;
 }
 
 #flag {
-	vertical-align: baseline; 
+	vertical-align: baseline;
 	margin-left: 3px;
 }
-/*acomodar el divBannertamaño*/ 
+/*acomodar el divBannertamaño*/
 .divBannerBG{
 	background-image: url('../img/galeria/banner.png');
-	height: calc(100vw / 6);
 	width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-	display: flex;
     justify-content: space-between;
+}
+
+.banner-ilu-01{
+	display: flex;
 }
 .divBannerIlu{
 	background-image: url('../img/galeria/banner1.png');
@@ -562,38 +620,94 @@ hr.bolder-line {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.divBannerBG--productos{
+	background-image: url('../img/galeria/banner.png');
+	width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+	margin-bottom: 3%;
+}
 .divBannerIlu div{
 	height: 100%;
+}
+.div-iluminacion-texto{
+    width: 80%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+
+}
+.bannerIluminacion{
+	margin-bottom: 3%;
+
 }
 .tituloBanner{
 	display: flex;
     align-items: center;
 }
 .tituloBanner h1{
-	font-size: 34px;
-	font-family: 'HelveticaNeueLTStd-Lt';
+	font-size: 2.5rem;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	text-align: left;
-	color:#186990;
-	margin: 3px;
+	color: #1a4b6b;
+	margin: 0;
+	font-weight: 100;
+}
+.tituloBanner p{
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 2.5rem;
+	margin: 0;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #1a4b6b;
+	font-weight: 100;
+	margin-right:5px;
+	margin-left: 5px;
 }
 .tituloBanner h2{
-	font-size: 24px;
-	font-family: 'HelveticaNeueLTStd-Lt';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 2.5rem;
+	margin: 0;
+	letter-spacing: 1px;
 	text-align: left;
-	color:#186990;
-	margin: 3px;
+	color: #1a4b6b;
+	font-weight: 5000;
 }
 .tituloNegatoscopio{
-	color: #1a4b6b;
-	font-size: 45px;
-	font-family: 'HelveticaNeueLTStd-Lt';
-	text-align: left;
-	/* width: 50%; */
     display: flex;
 	flex-wrap: wrap;
     align-content: center;
 	align-items: center;
-	padding: 2%;
+	padding: 1%;
+}
+.tituloNegatoscopio-Banner{
+	width: 50%;
+    padding-left: 1%;
+	display: flex;
+	flex-wrap: wrap;
+    align-content: center;
+	align-items: center;
+}
+.tituloNegatoscopio-Banner h4{
+	color: #1a4b6b;
+	font-size: 2.5rem;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-weight: 500;
+	text-align: left;
+	margin: 0;
+}
+.tituloNegatoscopio-Banner img{
+	width: 15px;
+	height: 20px;
+	margin-right: 10px;
+}
+.tituloNegatoscopio h4{
+	color: #1a4b6b;
+	font-size: 4rem;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-weight: 500;
+	text-align: left;
+	margin: 0;
 }
 .tituloNegatoscopio img{
 	width: 15px;
@@ -602,7 +716,7 @@ hr.bolder-line {
 }
 .containerIluminacion{
 	background-color: #000;
-	height: 100vh;
+	height: 40vh;
 	width: 100%;
 	display: flex;
     align-items: center;
@@ -617,8 +731,8 @@ hr.bolder-line {
 	display: flex;
     flex-direction: column;
     align-items: center;
-	height: 70%;
-	width: 100%;
+	height: 95%;
+	width: 20%;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -628,43 +742,56 @@ hr.bolder-line {
 	display: flex;
     flex-direction: column;
     align-items: center;
+	margin-bottom: 5%;
 }
 .divTextIlu{
 	display: flex;
 	color: white;
 	align-items: center;
+	flex-direction: column;
+	margin-bottom: 10%;
 }
 .divTextIlu img{
 	height: 50%;
 }
 .divTextIlu h4{
 	font-size: 2.5rem;
-	font-family: 'HelveticaNeueLTStd-Md';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	letter-spacing: 1px;
+	font-weight: 100;
 }
-.divLinkIluminacion a{
-	font-family: 'HelveticaNeueLTStd-Md';
+.div-icon-ilu{
+	display: flex;
+	align-items: center;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 2rem;
-	margin-bottom: 5px;
+	letter-spacing: 1px;
 }
+
+
 .divProductosIlu{
 	display: flex;
     justify-content: center;
+	flex-direction: column;
+    align-items: center;
+
 }
 .divProductoLab{
 	display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-	
+
 }
 .divProximamente{
 	height: 350px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'HelveticaNeueLTStd-Md';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 3rem;
 	color: #1a4b6b;
+	letter-spacing: 1px;
 
 }
 .containerProductosIlu{
@@ -688,14 +815,16 @@ hr.bolder-line {
 	align-items: center;
 }
 .categoriaProductosDiv h5 {
-	color: #186990;
-	font-family: 'HelveticaNeueLTStd-Md';
-	font-size: 15px;
+	color: #1a4b6b;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 1.5rem;
+	letter-spacing: 1px;
 }
 .categoriaProductosDiv a {
-	color: #186990;
-	font-family: 'HelveticaNeueLTStd-Md';
-	font-size: 15px;
+	color: #1a4b6b;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 1.5rem;
+	letter-spacing: 1px;
 }
 .divImgIlu{
 	border: solid 1px #186990;
@@ -713,15 +842,21 @@ hr.bolder-line {
     justify-content: flex-end;
 }
 .irArribaText{
-	color: #186990;
-	font-family: 'Helvetica Neue LT-Std';
-	font-size: 1.75rem;
-	line-height: 1.75rem;
 	text-align: left;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
 	align-items: center;
+}
+.irArribaText a{
+	color: #1a4b6b;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 1.75rem;
+	line-height: 15px;
+	letter-spacing: 1px;
+}
+.irArribaText a:hover{
+	color: #428daa;
 }
 .irArribaText img{
 	width: 15px;
@@ -731,8 +866,9 @@ hr.bolder-line {
 .containerBannerText{
 	width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 	justify-content: flex-start;
+	flex-direction: column;
 }
 .divBanner{
 	width: 100%;
@@ -742,7 +878,7 @@ hr.bolder-line {
     flex-wrap: wrap;
 
 }
-.divBanner h1 {
+/* .divBanner h1 {
 	font-size: 25px;
 	font-family: 'HelveticaNeueLTStd-Lt';
 	text-align: left;
@@ -750,7 +886,7 @@ hr.bolder-line {
 	margin: 0;
 }
 .divBanner h3 {
-	font-size: 54px;
+	font-size: 50px;
 	font-family: 'HelveticaNeueLTStd-Lt';
 	text-align: left;
 	color: #fff;
@@ -761,8 +897,8 @@ hr.bolder-line {
 	font-family: 'HelveticaNeueLTStd-Lt';
 	text-align: left;
 	color: #fff;
-	margin-left: 2%;
-}
+	margin-top: 0;
+} */
 .divTextosBanner{
 	display: flex;
     justify-content: space-evenly;
@@ -775,7 +911,6 @@ hr.bolder-line {
 	width: 100%;
 }
 
-
 .imgGaleria{
 	width: 20%;
 	border: solid 4px black;
@@ -783,7 +918,6 @@ hr.bolder-line {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	font-family: 'HelveticaNeueLTStd-Lt';
 	font-size: 3rem;
 	text-align: center;
 	color: #fff;
@@ -792,15 +926,16 @@ hr.bolder-line {
 	align-items: center;
     flex-direction: column;
     justify-content: flex-end;
-	
+
 }
 
 .imgGaleria a {
 	text-decoration: none;
 	color: #fff;
-	font-family: 'HelveticaNeueLTStd-Lt';
-	font-size: 1.5rem;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 1.6rem;
 	cursor: pointer;
+	line-height: 2.8rem;
 
 }
 
@@ -810,50 +945,64 @@ hr.bolder-line {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+	margin-bottom: 13%;
 }
 .textCategoria p{
-	font-family: 'HelveticaNeueLTStd-Md';
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	color:#fff;
-	font-size: 1.7rem;
-	line-height: 1.8rem;
+	font-size: 2.5rem;
+    line-height: 2.8rem;
+	margin-bottom: 0;
 }
 
 .divTextCategoria{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-bottom: 7%;
+
 }
 .divTextCategoria img{
 	width: 25%;
 }
 .subcategoriasDIV{
-	height:100vh;
-	width: 100%;
+	/* height: 100vh;
+	width: 100vw; */
+	height: 100vh;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+
 }
 
 .imgSubcategoria{
-	height: 70%;
-	width: 45%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	height: 100%;
+
+
 }
-.imgSubcategoria p{
-	font-family: 'Helvetica Neue LT Std';
-	color: #186990;
+.imgSubcategoria h3{
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	color: #1a4b6b;
+	font-size: 3rem;
+
 }
 .imgSubcategoria a{
-	font-family: 'HelveticaNeueLTStd-Bd';
-	color: #186990;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	color: #1a4b6b;
+	font-size: 2rem;
+
 }
-.imgSubcategoria img {
-	max-width: 230px;
-    width: inherit;
-    height: inherit;
+/* .imgSubcategoria img {
+	width: 80%;
+	height: 70%;
+} */
+.resizeImage{
+	width: 60%;
+	height: 60%;
+	object-fit: contain;
 }
 .division{
 	display: flex;
@@ -863,24 +1012,22 @@ hr.bolder-line {
 	color: #1a4b6b;
 }
 .division h5{
-	font-family: 'HelveticaNeueLTStd-Md';
-	font-size: 1.5rem;
-	line-height: 1.75rem;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 2rem;
+	line-height: 15px;
 }
 .division h6{
-	font-family: 'Helvetica Neue LT-Std';
+	font-family: 'HelveticaNeueLTStd-Md';
 	font-size: 1.55rem;
 	line-height: 1.75rem;
+	color: #1a4b6b;
 }
 
 .iconDivision{
 	width: 100%;
-	color: #186990;
-    font-size: 45px;
-    font-family: 'HelveticaNeueLTStd-Lt';
     text-align: left;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     align-items: center;
     padding: 2%;
@@ -906,16 +1053,33 @@ hr.bolder-line {
 	display: flex;
     flex-wrap: wrap;
     width: 100%;
-
     align-items: flex-start;
     justify-content: space-between;
 }
-.modeloText{
-	font-family: 'Helvetica Neue LT Std';
-	font-size: 40px;
+.text-center{
+	text-align: left;
+}
+.modeloText p {
+	font-size: 2rem;
+	font-family: 'HelveticaNeueLTStd-Md';
+	color: #1a4b6b;
 }
 .divImagen{
 	width: 80%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.divImagenLab{
+	width: 80%;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 .divImagen p{
 	color: #1a4b6b;
@@ -923,7 +1087,18 @@ hr.bolder-line {
 	font-size: 20px;
 
 }
-/*Buscador*/ 
+.div-imagen-producto{
+	display: flex;
+	justify-content: center;
+}
+.divImgIluminacion{
+	height: 70%;
+    width: 70%;
+}
+.divImgIluminacion img{
+	width: 80%;
+}
+/*Buscador*/
 
 .select-box{
 	margin-top:100px;
@@ -1008,44 +1183,44 @@ hr.bolder-line {
 
 
 @media (min-width: 1650px) {
-	
+
 	.recuadro-negro.text-left {
 		height: 445px;
 	}
-	
+
 }
 
 @media (min-width: 1400px) {
 	.nav > li > a {
 		padding: 10px 40px;
 	}
-	
+
 	.navbar-nav {
 		position: relative;
 		bottom: -20px;
-	}	
-	
+	}
+
 	footer {
 		padding: 3rem 2rem;
 	}
-	
+
 	footer .ptop {
 		padding-top: 1.5%;
 	}
-	
+
 	#highlight-01 {
-		width: 65%;		
+		width: 65%;
 		margin-top: 10%;
 	}
-	
+
 	.recuadro-negro {
 		padding: 5rem 7rem;
 	}
-	
+
 	#comentarios {
 		height: 200px;
 	}
-	
+
 	.nav-equipos {
 		padding-top: 4rem;
 	}
@@ -1064,11 +1239,11 @@ hr.bolder-line {
 	.recuadro-negro {
 		margin-bottom: 20px;
 	}
-	
+
 	.ptop {
 		margin-bottom: 10px;
 	}
-	
+
 	#lg-visible {
 		display: none;
 	}
@@ -1078,7 +1253,13 @@ hr.bolder-line {
 	}
 	.textCategoria{
 		margin-bottom: 0;
-		font-size: 2rem;
+	}
+	.textCategoria p{
+		font-size: 3rem;
+		line-height: 3.5rem;
+	}
+	.divTextCategoria img{
+		display: none;
 	}
 	.imgGaleria {
 		width: 100%;
@@ -1091,7 +1272,36 @@ hr.bolder-line {
 		margin: 0;
 		font-size: 2rem;
 	}
-	
+	.divLinkIluminacion{
+		width: 45%;
+	}
+	.div-iluminacion-texto {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.iconDivision img{
+		display: none;
+	}
+	.seleccionadoLab{
+		display: none;
+	}
+	.subcategoriasDIV{
+		flex-direction: column;
+		height: 100%;
+		align-items: center;
+		padding: 2%;
+	}
+
+	.resizeImage {
+		max-height: 400px;
+	}
+	.div-mobile{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
 }
  @media (min-width: 769px){
 	.divDivision{
@@ -1108,16 +1318,16 @@ hr.bolder-line {
 		zoom: 0%;
 	}
 
-} 
+}
 @media (max-width: 768px) {
 	body {
 		font-size: 12px;
 	}
-	
+
 	.navbar-inverse .navbar-brand {
 		width: 70%;
 	}
-	
+
 	#dispositivos-slider {
 		padding-bottom: 20px;
 	}
@@ -1146,7 +1356,7 @@ hr.bolder-line {
 	.mobileHome h4{
 		font-size: 25px;
 	}
-	
+
 	.divParrafo{
 		display: none;
 	}
@@ -1172,14 +1382,16 @@ hr.bolder-line {
 		width: 100%;
 		border: solid 2px #000;
 	}
-	
+
 	.fondo2 h4{
 		font-size: 20px;
 	}
-	
-	.clickMobile.agrandar { 
+	.divIngresar img {
+		width: 20%;
+	}
+	.clickMobile.agrandar {
 		zoom: 75%;
-		
+
 	}
 	.containerCategoria{
 		flex-direction: column;
@@ -1200,12 +1412,17 @@ hr.bolder-line {
 	}
 	.divBanner h4 {
 		font-size: 1.7rem;
+		margin: 0;
 	}
 	.divBannerBG{
-		height: calc(100vw / 4);
+		height: calc(100vw / 3);
 	}
 	.imgSubcategoria {
 		width: 90%;
+		text-align: center;
+	}
+	.resizeImage {
+		max-height: 250px;
 	}
 	.mobileCategorias{
 		width: 100%;
@@ -1219,9 +1436,12 @@ hr.bolder-line {
 	.textCategoria{
 		margin-bottom: 0;
 	}
-	
+
 	.tituloBanner h1{
 		font-size: 30px;
+	}
+	.tituloBanner p{
+		font-size: 20px;
 	}
 	.tituloBanner h2{
 		font-size: 20px;
@@ -1231,30 +1451,73 @@ hr.bolder-line {
 	}
 	.title-section h1{
 		font-size: 3.3rem;
-		
+
 	}
 	.title-section h2{
 		font-size: 3rem;
-	
+
+	}
+	.title-section p {
+		margin-left: 3px;
 	}
 	.title-section h3{
 		font-size: 2.5rem;
-		
+		margin-left: 5px;
+
 	}
-	.divLinkIluminacion{
-		height: calc(100vh / 2);
+	.subcategoriasDIV{
+		flex-direction: column;
+		height: 100%;
+		align-items: center;
+		padding: 2%;
 	}
+
+	.bannerIluminacion{
+		margin-top: 1%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+	.tituloBanner{
+		flex-direction: column;
+	}
+	.tituloBanner p{
+		display: none;
+	}
+	.containerBannerText{
+		flex-direction: column;
+		align-items: center;
+	}
+
 	.divLinkIluminacion a{
 		font-size: 2rem;
+	}
+	.divTiulos{
+		flex-direction: column;
+	}
+	.divTiulos p {
+		display: none;
 	}
 	.divTextIlu h4 {
 		font-size: 2rem;
 	}
-	
+
 	.tituloNegatoscopio {
-		font-size: 45px;
 		width: 100%;
 		justify-content: center;
+		text-align: center;
+	}
+	/* .tituloNegatoscopio img{
+		display: none
+	} */
+	.tituloNegatoscopio-Banner {
+		width: 100%;
+		justify-content: center;
+		text-align: center;
+	}
+	.tituloNegatoscopio-Banner img{
+		display: none;
 	}
 	.containerProductosIlu {
 		height: 100%;
@@ -1266,12 +1529,18 @@ hr.bolder-line {
 		justify-content: center;
 		padding: 10px;
 	}
+	.divProductoView{
+		justify-content: center;
+	}
+	.text-center{
+		text-align: center;
+	}
 	.categoriaProductosDiv {
 		width: 160px;
 		margin: 5% 3% 5% 3%;
 	}
 	.irArribaText{
-		font-size: 25px;
+		font-size: 20px;
 	}
 	.irArribaText img{
 		width: 10px;
@@ -1280,35 +1549,48 @@ hr.bolder-line {
 	.division{
 		width: 100%;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+	}
+	.divisonDiv{
+		display: none;
 	}
 	.divImagen{
+		width: 100%;
+		text-align: center;
+	}
+
+
+	.divImagenLab{
 		width: 100%;
 	}
 }
 @media(max-width:670px){
 	.title-section h1{
 		font-size: 2.5rem;
-		
+
 	}
 	.title-section h2{
-		font-size: 1.5rem;
-	
+		font-size: 3rem;
+
 	}
 	.title-section h3{
-		font-size: 1.5rem;
-		
+		font-size: 1.7rem;
+
 	}
+	/* .containerIluminacion{
+		height: calc(100vh/2);
+	} */
 	.divTextIlu{
-		width: 80%;
-	}
-	.divLinkIluminacion{
-		height: 40%;
 		width: 100%;
 	}
-	.divLinkIluminacion a{
-		font-size: 1.5rem;
+	.divLinkIluminacion{
+		width: 100%;
+	}
+	.div-icon-ilu a{
+		font-size: 2rem;
 		margin-bottom: 0.2rem;
 	}
 	.divTextIlu h4 {
@@ -1323,7 +1605,14 @@ hr.bolder-line {
 	.tituloBanner h2{
 		font-size: 15px;
 	}
+	.divBannerBG {
+		height: calc(100vw / 2);
+	}
 	.imgSubcategoria {
-		width: 90%;
+		width: 100%;
+		height: 80%;
+	}
+	.divTextIlu h4 {
+		font-size: 1.5rem;
 	}
 }

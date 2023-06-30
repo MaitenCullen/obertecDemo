@@ -71,14 +71,16 @@
 	</div> 
 </header>
 <section>
-<div class="bannerIluminacion" id="001">
+    <img src="img/linea.png" class="banner-ilu-01"/>
+        <div class="bannerIluminacion" id="001">
 			<div class="col-md-12 tituloBanner">
-				<h1>Equipos / </h1>
-                <h2> División Iluminación</h2>
+				<h1>EQUIPOS </h1>
+                <p> / </p>
+                <h2> DIVISIÓN ILUMINACIÓN</h2>
 			</div>
-            <div class="tituloNegatoscopio">
+            <div class="tituloNegatoscopio-Banner">
                 <img src='./img/iconAzul1.png'/>
-                <h4> NEGATOSCOPIOS</h4>
+                <h4> NEGATOSCOPIOS LED</h4>
             </div>
 		</div>
         <div class="containerProductosIlu">
@@ -175,7 +177,7 @@
                 </div>
                 <div class="categoriaProductosDiv">
                     <div class="divImgIlu">
-                        <img src="img/negatos_led_obertec_ultra_delg_1_peli_15x30.jpg"" alt="Negatoscopio Tecnología Led 1 pelicula ultradelgado" />
+                        <img src="img/negatos_led_obertec_ultra_delg_1_peli_15x30.jpg" alt="Negatoscopio Tecnología Led 1 pelicula ultradelgado" />
                     </div>
                     <h5>NEGATOSCOPIO LED ULTRADELGADO PARA 1 PELICULA 15X30</h5>
                     <div class="tituloNegatoscopio">
@@ -183,63 +185,15 @@
                          <a href='#ilu9'> Ver</a>
                     </div>
                 </div>
-            </div>
+            </div>     
         </div>
+   
 	<div class="container-fluid">
-		<div class="row divProductosIlu">
-			<div class="col-md-12">
-                <div class="divProductoView">
-                    <div class="division">
-                        <div>
-                            <h5>EQUIPOS</h5>
-                            <h5>DIVISIÓN ILUMINACIÓN</h5>
-                        </div>
-                        <div class="iconDivision tituloNegatoscopio">
-                            <img src='./img/iconAzul1.png'/>
-                            <h6>NEGATOSCOPIOS LED</h6>
-                        </div>
-                    </div>
-                    <div class="divImagen" id="ilu0">
-                        <div class="col-md-5">
-                            <br>
-                            <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 1 PELICULA 35 X 43</h2>
-                            <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                            <hr class="name-line">
-                            <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                            <br>
-                            <p class="title-list">Características Técnicas</p>
-                            <ul class="description">							
-                                <li>- Estructura  metálica con finas terminaciones.</li>
-                                <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
-                                <li>- Sistema de iluminación LED de alta intensidad.</li>
-                                <li>- Libre de parpadeo.</li>
-                                <li>- Iluminación uniforme.</li>
-                                <li>- Sistema de encendido táctil.</li>
-                                <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                <li>- Fuente switching  AC 110V - 220V.</li>
-                                <li>- Bajo consumo eléctrico.</li>
-                                <li>- Medidas externas: 400 X 250 X 40.</li>
-                                <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
-                            </ul>
-                            <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>
-                        </div>
-					<div class="col-md-7">
-						<img class="full-width" src="img/negatos_led_obertec_1_peli_35x43.jpg" alt="Negatoscopio Tecnología Led 35 X 43" title="Negatoscopio Led 35 x 40 Simple">
-					</div>
-                    <div class="irArriba">
-                        <div class="irArribaText">
-                            <img src='./img/iconAzul1.png'/>
-                        <a href="#001"> Ir arriba </a>
-                        </div>
-                    </div>
-				</div>
-            <img src="img/linea.png"/>
-            </div>
-				
-				<!-- <hr class="name-line"> -->
-                <div class="divProductoView">
-                    <div class="division">
+    <hr class="name-line">
+        <div class="divProductosIlu">
+                <div class=" aca esta">
+                    <div class="divProductoView">
+                        <div class="division">
                             <div class="divisonDiv">
                                 <h5>EQUIPOS</h5>
                                 <h5>DIVISIÓN ILUMINACIÓN</h5>
@@ -249,191 +203,54 @@
                                 <h6>NEGATOSCOPIOS LED</h6>
                             </div>
                         </div>
-                    <div class="divImagen" id="ilu1">
-                        <div class="col-md-5">
-                            <br>
-                            <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 2 PELÍCULAS 35 X 43</h2>
-                            <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                            <hr class="name-line">
-                            <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                            <br>
-                            <p class="title-list">Características Técnicas</p>
-                            <ul class="description">							
-                                <li>- Estructura  metálica con finas terminaciones.</li>
-                                <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
-                                <li>- Sistema de iluminación LED de alta intensidad.</li>
-                                <li>- Libre de parpadeo.</li>
-                                <li>- Iluminación uniforme.</li>
-                                <li>- Sistema de encendido táctil.</li>
-                                <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                <li>- Fuente switching  AC 110V - 220V.</li>
-                                <li>- Bajo consumo eléctrico.</li>
-                                <li>- Medidas externas: 900 X 500 X 40.</li>
-                                <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
-                            </ul>
-                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					</div>
-                        <div class="col-md-7">
-                            <img class="full-width" src="img/negatos_led_obertec_2_peli_35x43.jpg" alt="Negatoscopio Tecnología Led Doble 35 x 43" title="Negastoscopio Doble 5 x 43">
-                        </div>
-                        <div class="irArriba">
-                            <div class="irArribaText">
-                                <img src='./img/iconAzul1.png'/>
-                            <a href="#001"> Ir arriba </a>
-                            </div>
-                        </div>
-                    </div>
-                <img src="img/linea.png"/>
-                </div>
-                <!-- PRODUCTO -->
-                <div class="divProductoView">
-                    <div class="division">
-                            <div class="divisonDiv">
-                                <h5>EQUIPOS</h5>
-                                <h5>DIVISIÓN ILUMINACIÓN</h5>
-                            </div>
-                            <div class="iconDivision tituloNegatoscopio">
-                                <img src='./img/iconAzul1.png'/>
-                                <h6>NEGATOSCOPIOS LED</h6>
-                            </div>
-                        </div>
-                    <div class="divImagen" id="ilu2">
-                        <div class="col-md-5">
-                            <br>
-                            <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 3 PELÍCULAS 35 X 43</h2>
-                            <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                            <hr class="name-line">
-                            <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                            <br>
-                            <p class="title-list">Características Técnicas</p>
-                            <ul class="description">							
-                                <li>- Estructura  metálica con finas terminaciones.</li>
-                                <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
-                                <li>- Sistema de iluminación LED de alta intensidad.</li>
-                                <li>- Libre de parpadeo.</li>
-                                <li>- Iluminación uniforme.</li>
-                                <li>- Sistema de encendido táctil.</li>
-                                <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                <li>- Fuente switching  AC 110V - 220V.</li>
-                                <li>- Bajo consumo eléctrico.</li>
-                                <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
-                            </ul>
-                            <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>				
-                        </div>
-                        <div class="col-md-7">
-                            <img class="full-width" src="img/negatos_led_obertec_3_peli_35x43.jpg" alt="Negatoscopio Tecnología Led Triple 35 x 43" title="Negastoscopio Triple 5 x 43">
-                        </div>
-                        <div class="irArriba">
-                            <div class="irArribaText">
-                                <img src='./img/iconAzul1.png'/>
-                            <a href="#001"> Ir arriba </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>					
-                <img src="img/linea.png"/>
-                    <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
-                            <div class="divisonDiv">
-                                <h5>EQUIPOS</h5>
-                                <h5>DIVISIÓN ILUMINACIÓN</h5>
-                            </div>
-                            <div class="iconDivision tituloNegatoscopio">
-                                <img src='./img/iconAzul1.png'/>
-                                <h6>NEGATOSCOPIOS LED</h6>
-                            </div>
-                        </div>
-                    <div class="divImagen" id="ilu3">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 1 PELÍCULA 24 X 30</h2>
-                                <h3 class="brand"> INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                                <br>
-                                <p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                    <li>- Estructura  metálica con finas terminaciones.</li>
-                                    <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                    <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
-                                    <li>- Sistema de iluminación LED de alta intensidad.</li>
-                                    <li>- Libre de parpadeo.</li>
-                                    <li>- Iluminación uniforme.</li>
-                                    <li>- Sistema de encendido táctil.</li>
-                                    <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                    <li>- Fuente switching  AC 110V - 220V.</li>
-                                    <li>- Bajo consumo eléctrico.</li>
-                                    <li>- Medidas externas: 400 X 300 X 40.</li>
-                                    <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
-                                </ul>
-                            <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>						
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_1_peli_24x30.jpg" alt="Negatoscopio Tecnología Led Odontológico" title="Negatostopio Odontológico">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
-                                    <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
-                                </div>
-                            </div>
-                        </div>	
-                </div>  
-                <img src="img/linea.png"/>
-                  <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
-                            <div class="divisonDiv">
-                                <h5>EQUIPOS</h5>
-                                <h5>DIVISIÓN ILUMINACIÓN</h5>
-                            </div>
-                            <div class="iconDivision tituloNegatoscopio">
-                                <img src='./img/iconAzul1.png'/>
-                                <h6>NEGATOSCOPIOS LED</h6>
-                            </div>
-                        </div>
-                    <div class="divImagen" id="ilu4">
+                        <div class="divImagen" id="ilu0">
+                            <div class="">
                                 <div class="col-md-5">
                                     <br>
-                                        <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 2 PELÍCULAS 24 X 30</h2>
-                                        <h3 class="brand"> INDUSTRIA ARGENTINA.</h3>
-                                        <hr class="name-line">
-                                        <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 1 PELICULA 35 X 43</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
                                     <br>
-                                    <p class="title-list">Características Técnicas</p>
-                                    <ul class="description">							
-                                        <li>- Estructura  metálica con finas terminaciones.</li>
-                                        <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                        <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
-                                        <li>- Sistema de iluminación LED de alta intensidad.</li>
-                                        <li>- Libre de parpadeo.</li>
-                                        <li>- Iluminación uniforme.</li>
-                                        <li>- Sistema de encendido táctil.</li>
-                                        <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                        <li>- Fuente switching  AC 110V - 220V.</li>
-                                        <li>- Bajo consumo eléctrico.</li>
-                                        <li>- Medidas externas: 550 X 250 X 40.</li>
-                                        <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
-                                    </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>						
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_2_peli_24x30.jpg" alt="Negatoscopio Tecnología Led Mamográfico" title="Negatostopio Mamográfico Doble">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
-                                    <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
+                                            <li>- Sistema de iluminación LED de alta intensidad.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido táctil.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  AC 110V - 220V.</li>
+                                            <li>- Bajo consumo eléctrico.</li>
+                                            <li>- Medidas externas: 400 X 250 X 40.</li>
+                                            <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>
+                                    </div>
+                                    <div class="col-sm-12 col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_1_peli_35x43.jpg" style="max-height:500px;"alt="Negatoscopio Tecnología Led 35 X 43" title="Negatoscopio Led 35 x 40 Simple">
+                                     </div>
+                                </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                        <a href="#001"> Ir arriba </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>  
-                <img src="img/linea.png"/>
-                <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
+                    </div>
+                    <img src="img/linea.png"/>
+                <!-- <hr class="name-line"> -->
+                    <div class="divProductoView">
+                        <div class="division">
                             <div class="divisonDiv">
                                 <h5>EQUIPOS</h5>
                                 <h5>DIVISIÓN ILUMINACIÓN</h5>
@@ -443,237 +260,52 @@
                                 <h6>NEGATOSCOPIOS LED</h6>
                             </div>
                         </div>
-                    <div class=" divImagen" id="ilu5">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 4 PELÍCULAS 24 X 30</h2>
-                                <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                                <br>
-                                <p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                    <li>- Estructura  metálica con finas terminaciones.</li>
-                                    <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                    <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
-                                    <li>- Sistema de iluminación LED de alta intensidad.</li>
-                                    <li>- Libre de parpadeo.</li>
-                                    <li>- Iluminación uniforme.</li>
-                                    <li>- Sistema de encendido táctil.</li>
-                                    <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                    <li>- Fuente switching  AC 110V - 220V.</li>
-                                    <li>- Bajo consumo eléctrico.</li>
-                                    <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
-                                </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>				
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_4_peli_24x30.jpg" alt="Negatoscopio Tecnología Led Triple 35 x 43" title="Negastoscopio Triple 5 x 43">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
-                                    <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
+                        <div class="divImagen" id="ilu1">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 2 PELÍCULAS 35 X 43</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
+                                            <li>- Sistema de iluminación LED de alta intensidad.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido táctil.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  AC 110V - 220V.</li>
+                                            <li>- Bajo consumo eléctrico.</li>
+                                            <li>- Medidas externas: 900 X 500 X 40.</li>
+                                            <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>
+                                    </div>                     
+                                    <div class="col-sm-12 col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_2_peli_35x43.jpg" alt="Negatoscopio Tecnología Led Doble 35 x 43" title="Negastoscopio Doble 5 x 43">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                    <a href="#001"> Ir arriba </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                </div>     				
-                <img src="img/linea.png"/>	
-                     <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
-                            <div class="divisonDiv">
-                                <h5>EQUIPOS</h5>
-                                <h5>DIVISIÓN ILUMINACIÓN</h5>
-                            </div>
-                            <div class="iconDivision tituloNegatoscopio">
-                                <img src='./img/iconAzul1.png'/>
-                                <h6>NEGATOSCOPIOS LED</h6>
-                            </div>
-                        </div>
-                    <div class=" divImagen" id="ilu6">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 1 PELÍCULA 15 X 30</h2>
-                                <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                                <br>
-                                <p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                    <li>- Estructura  metálica con finas terminaciones.</li>
-                                    <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                    <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
-                                    <li>- Sistema de iluminación LED de alta intensidad.</li>
-                                    <li>- Libre de parpadeo.</li>
-                                    <li>- Iluminación uniforme.</li>
-                                    <li>- Sistema de encendido táctil.</li>
-                                    <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                    <li>- Fuente switching  AC 110V - 220V.</li>
-                                    <li>- Bajo consumo eléctrico.</li>
-                                    <li>- Medidas externas: 350 X 250 X 40.</li>
-                                    <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
-                                </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>						
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_1_peli_15x30_negro.jpg" alt="Negatoscopio Tecnología Led Mamografía" title="Negatostopio Mamográfico Simple">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
-                                    <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-		         <img src="img/linea.png"/>
-                      <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
-                            <div class="divisonDiv">
-                                <h5>EQUIPOS</h5>
-                                <h5>DIVISIÓN ILUMINACIÓN</h5>
-                            </div>
-                            <div class="iconDivision tituloNegatoscopio">
-                                <img src='./img/iconAzul1.png'/>
-                                <h6>NEGATOSCOPIOS LED</h6>
-                            </div>
-                        </div>
-                    <div class=" divImagen" id="ilu7">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 1 PELICULA 35 X 43</h2>
-                                <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                                <br>
-                                <p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                <li>- Estructura  metálica con finas terminaciones.</li>
-                                <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
-                                <li>- Sistema de iluminación LED.</li>
-                                <li>- Libre de parpadeo.</li>
-                                <li>- Iluminación uniforme.</li>
-                                <li>- Sistema de encendido mediante llave ON-OFF.</li>
-                                <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
-                                <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
-                                <li>- Medidas Externas: 600 X 400 X 10 mm.</li>
-                                </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_ultra_delg_1_peli_35x43.jpg" alt="Negatoscopio Led Ultra Delgado 35 x 43" title="Negastoscopio Ultra Delgado 35 x 43">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
-                                    <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
-                                </div>
-                            </div>
-                        </div>	
-                </div>
-                <img src="img/linea.png"/>
-                     <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
-                            <div class="divisonDiv">
-                                <h5>EQUIPOS</h5>
-                                <h5>DIVISIÓN ILUMINACIÓN</h5>
-                            </div>
-                            <div class="iconDivision tituloNegatoscopio">
-                                <img src='./img/iconAzul1.png'/>
-                                <h6>NEGATOSCOPIOS LED</h6>
-                            </div>
-                        </div>
-                    <div class=" divImagen" id="ilu7">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 2 PELÍCULAS 35 X 43</h2>
-                                <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                                <br>
-                                <p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                    <li>- Estructura  metálica con finas terminaciones.</li>
-                                    <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                    <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
-                                    <li>- Sistema de iluminación LED.</li>
-                                    <li>- Libre de parpadeo.</li>
-                                    <li>- Iluminación uniforme.</li>
-                                    <li>- Sistema de encendido mediante llave ON-OFF.</li>
-                                    <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                    <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
-                                    <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
-                                    <li>- Medidas Externas: 870 X 600 X 10 mm.</li>
-                                </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>				
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_ultra_delg_2_peli_35x43.jpg" alt="Negatoscopio Led Ultra Delgado Doble 35 x 43" title="Negastoscopio Doble Ultra Delgado 5 x 43">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
-                                    <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
-                                </div>
-                            </div>
-                        </div>			
-                </div>
-                <img src="img/linea.png"/>
-                     <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
-                            <div class="divisonDiv">
-                                <h5>EQUIPOS</h5>
-                                <h5>DIVISIÓN ILUMINACIÓN</h5>
-                            </div>
-                            <div class="iconDivision tituloNegatoscopio">
-                                <img src='./img/iconAzul1.png'/>
-                                <h6>NEGATOSCOPIOS LED</h6>
-                            </div>
-                        </div>
-                    <div class=" divImagen" id="ilu8">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 3 PELÍCULAS 35 X 43</h2>
-                                <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                                <br>
-                                <p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                    <li>- Estructura  metálica con finas terminaciones.</li>
-                                    <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                    <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
-                                    <li>- Sistema de iluminación LED.</li>
-                                    <li>- Libre de parpadeo.</li>
-                                    <li>- Iluminación uniforme.</li>
-                                    <li>- Sistema de encendido mediante llave ON-OFF.</li>
-                                    <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                    <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
-                                    <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
-                                    <li>- Medidas Externas: 1200 X 600 X 10 mm.</li>
-                                </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_ultra_delg_3_peli_35x43.jpg" alt="Negatoscopio Led Ultra Delgado Triple 35 x 43" title="Negastoscopio Triple Ultra Delgado 35 x 43">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
-                                    <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <img src="img/linea.png"/>
-                     <!-- PPRODUCTO -->
-                <div  class="divProductoView">
+                    </div>
+                    <img src="img/linea.png"/>    
+                <!-- PRODUCTO -->
+                    <div class="divProductoView">
                         <div class="division">
                                 <div class="divisonDiv">
                                     <h5>EQUIPOS</h5>
@@ -684,44 +316,108 @@
                                     <h6>NEGATOSCOPIOS LED</h6>
                                 </div>
                             </div>
-                    <div class=" divImagen" id="ilu8">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 1 PELÍCULA 24 X 30</h2>
-                                <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.<br>
-                                </h4><p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                    <li>- Estructura  metálica con finas terminaciones.</li>
-                                    <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                    <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
-                                    <li>- Sistema de iluminación LED.</li>
-                                    <li>- Libre de parpadeo.</li>
-                                    <li>- Iluminación uniforme.</li>
-                                    <li>- Sistema de encendido mediante llave ON-OFF.</li>
-                                    <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                    <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
-                                    <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
-                                    <li>- Medidas Externas: 430 X 300 X 10 mm.</li>
-                                </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
-                            </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_ultra_delg_1_peli_24x30.jpg" alt="Negatoscopio Ultra Delgado Led 24 x 30" title="Negastoscopio 24 x 30">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
+                            <div class="divImagen" id="ilu2">
+                                <div class="">
+                                    <div class="col-md-5">
+                                        <br>
+                                        <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 3 PELÍCULAS 35 X 43</h2>
+                                        <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                        <hr class="name-line">
+                                        <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                        <br>
+                                    </div>
+                                    <div class="div-mobile col-sm-12">
+                                        <div class="col-md-5">
+                                            <p class="title-list">Características Principales:</p>
+                                            <br>
+                                            <ul class="description">							
+                                                <li>- Estructura  metálica con finas terminaciones.</li>
+                                                <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                                <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
+                                                <li>- Sistema de iluminación LED de alta intensidad.</li>
+                                                <li>- Libre de parpadeo.</li>
+                                                <li>- Iluminación uniforme.</li>
+                                                <li>- Sistema de encendido táctil.</li>
+                                                <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                                <li>- Fuente switching  AC 110V - 220V.</li>
+                                                <li>- Bajo consumo eléctrico.</li>
+                                                <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
+                                            </ul>
+                                            <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>	
+                                        </div> 	
+                                        <div class="col-md-7">
+                                            <img class="full-width" src="img/negatos_led_obertec_3_peli_35x43.jpg" alt="Negatoscopio Tecnología Led Triple 35 x 43" title="Negastoscopio Triple 5 x 43">
+                                        </div>		
+                                    </div>
+                                    <div class="irArriba">
+                                        <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                        <a href="#001"> Ir arriba </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>					
+                    </div>
+                <img src="img/linea.png"/>
+                    <!-- PPRODUCTO -->
+                    <div  class="divProductoView">
+                        <div class="division">
+                                <div class="divisonDiv">
+                                    <h5>EQUIPOS</h5>
+                                    <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                </div>
+                                <div class="iconDivision tituloNegatoscopio">
                                     <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
+                                    <h6>NEGATOSCOPIOS LED</h6>
+                                </div>
+                        </div>
+                        <div class="divImagen" id="ilu3">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 1 PELÍCULA 24 X 30</h2>
+                                    <h3 class="brand"> INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
+                                            <li>- Sistema de iluminación LED de alta intensidad.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido táctil.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  AC 110V - 220V.</li>
+                                            <li>- Bajo consumo eléctrico.</li>
+                                            <li>- Medidas externas: 400 X 300 X 40.</li>
+                                            <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>						
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_1_peli_24x30.jpg" alt="Negatoscopio Tecnología Led Odontológico" title="Negatostopio Odontológico">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                    <a href="#001"> Ir arriba </a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>		
-                </div>
-				<img src="img/linea.png"/>
-                     <!-- PPRODUCTO -->
-                <div  class="divProductoView">
-                    <div class="division">
+                        </div>	
+                    </div> 
+                    <img src="img/linea.png"/>
+                <!-- PPRODUCTO -->
+                    <div  class="divProductoView">
+                        <div class="division">
                             <div class="divisonDiv">
                                 <h5>EQUIPOS</h5>
                                 <h5>DIVISIÓN ILUMINACIÓN</h5>
@@ -731,46 +427,440 @@
                                 <h6>NEGATOSCOPIOS LED</h6>
                             </div>
                         </div>
-                    <div class="divImagen" id="ilu9">
-                            <div class="col-md-5">
-                                <br>
-                                <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 1 PELÍCULA 15 X 30</h2>
-                                <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
-                                <hr class="name-line">
-                                <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
-                                <br>
-                                <p class="title-list">Características Técnicas</p>
-                                <ul class="description">							
-                                    <li>- Estructura  metálica con finas terminaciones.</li>
-                                    <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
-                                    <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
-                                    <li>- Sistema de iluminación LED.</li>
-                                    <li>- Libre de parpadeo.</li>
-                                    <li>- Iluminación uniforme.</li>
-                                    <li>- Sistema de encendido mediante llave ON-OFF.</li>
-                                    <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
-                                    <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
-                                    <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
-                                    <li>- Medidas Externas: 350 X 295 X 10 mm.</li>
-                                </ul>
-                                <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
+                        <div class="divImagen" id="ilu4">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 2 PELÍCULAS 24 X 30</h2>
+                                    <h3 class="brand"> INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
+                                            <li>- Sistema de iluminación LED de alta intensidad.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido táctil.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  AC 110V - 220V.</li>
+                                            <li>- Bajo consumo eléctrico.</li>
+                                            <li>- Medidas externas: 550 X 250 X 40.</li>
+                                            <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>						
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_2_peli_24x30.jpg" alt="Negatoscopio Tecnología Led Mamográfico" title="Negatostopio Mamográfico Doble">
+                                    </div>
+                                </div> 	
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                    <a href="#001"> Ir arriba </a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-md-7">
-                                <img class="full-width" src="img/negatos_led_obertec_ultra_delg_1_peli_15x30.jpg" alt="Negatoscopio Ultra Delgado Led 15 x 30" title="Negastoscopio 15 x 30">
-                            </div>
-                            <div class="irArriba">
-                                <div class="irArribaText">
+                        </div>  
+                    </div>  
+                    <img src="img/linea.png"/>
+                <!-- PPRODUCTO -->
+                    <div  class="divProductoView">
+                        <div class="division">
+                                <div class="divisonDiv">
+                                    <h5>EQUIPOS</h5>
+                                    <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                </div>
+                                <div class="iconDivision tituloNegatoscopio">
                                     <img src='./img/iconAzul1.png'/>
-                                <a href="#001"> Ir arriba </a>
+                                    <h6>NEGATOSCOPIOS LED</h6>
+                                </div>
+                            </div>
+                        <div class=" divImagen" id="ilu5">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 4 PELÍCULAS 24 X 30</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
+                                            <li>- Sistema de iluminación LED de alta intensidad.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido táctil.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  AC 110V - 220V.</li>
+                                            <li>- Bajo consumo eléctrico.</li>
+                                            <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>				
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_4_peli_24x30.jpg" alt="Negatoscopio Tecnología Led Triple 35 x 43" title="Negastoscopio Triple 5 x 43">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                    <a href="#001"> Ir arriba </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                </div>
-                <img src="img/linea.png"/>		
-                     <!-- PPRODUCTO -->			
-			</div>
-		</div>
-  </div>	
+                    </div>     				
+                    <img src="img/linea.png"/>
+                    <!-- PPRODUCTO -->
+                    <div  class="divProductoView">
+                        <div class="division">
+                                <div class="divisonDiv">
+                                    <h5>EQUIPOS</h5>
+                                    <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                </div>
+                                <div class="iconDivision tituloNegatoscopio">
+                                    <img src='./img/iconAzul1.png'/>
+                                    <h6>NEGATOSCOPIOS LED</h6>
+                                </div>
+                            </div>
+                        <div class=" divImagen" id="ilu6">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED MARCA OBERTEC PARA 1 PELÍCULA 15 X 30</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios tecnología Led. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño, ligero y delgado de 40mm de espesor.</li>
+                                            <li>- Sistema de iluminación LED de alta intensidad.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido táctil.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  AC 110V - 220V.</li>
+                                            <li>- Bajo consumo eléctrico.</li>
+                                            <li>- Medidas externas: 350 X 250 X 40.</li>
+                                            <li>- *Opcional: Encendido inalámbrico con variador de intensidad lumínica.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>						
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_1_peli_15x30_negro.jpg" alt="Negatoscopio Tecnología Led Mamografía" title="Negatostopio Mamográfico Simple">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                    <a href="#001"> Ir arriba </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/linea.png"/>
+                    <!-- PPRODUCTO -->
+                    <div  class="divProductoView">
+                        <div class="division">
+                                <div class="divisonDiv">
+                                    <h5>EQUIPOS</h5>
+                                    <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                </div>
+                                <div class="iconDivision tituloNegatoscopio">
+                                    <img src='./img/iconAzul1.png'/>
+                                    <h6>NEGATOSCOPIOS LED</h6>
+                                </div>
+                            </div>
+                        <div class=" divImagen" id="ilu7">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 1 PELICULA 35 X 43</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                        <li>- Estructura  metálica con finas terminaciones.</li>
+                                        <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                        <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
+                                        <li>- Sistema de iluminación LED.</li>
+                                        <li>- Libre de parpadeo.</li>
+                                        <li>- Iluminación uniforme.</li>
+                                        <li>- Sistema de encendido mediante llave ON-OFF.</li>
+                                        <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                        <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
+                                        <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
+                                        <li>- Medidas Externas: 600 X 400 X 10 mm.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
+                                    </div> 
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_ultra_delg_1_peli_35x43.jpg" style="" alt="Negatoscopio Led Ultra Delgado 35 x 43" title="Negastoscopio Ultra Delgado 35 x 43">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                        <a href="#001"> Ir arriba </a>
+                                    </div>
+                                </div>
+                            </div>	
+                        </div>
+                    </div>
+                    <img src="img/linea.png"/>
+                    <!-- PPRODUCTO -->
+                    <div  class="divProductoView">
+                        <div class="division">
+                                <div class="divisonDiv">
+                                    <h5>EQUIPOS</h5>
+                                    <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                </div>
+                                <div class="iconDivision tituloNegatoscopio">
+                                    <img src='./img/iconAzul1.png'/>
+                                    <h6>NEGATOSCOPIOS LED</h6>
+                                </div>
+                            </div>
+                        <div class=" divImagen" id="ilu7">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 2 PELÍCULAS 35 X 43</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
+                                            <li>- Sistema de iluminación LED.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido mediante llave ON-OFF.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
+                                            <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
+                                            <li>- Medidas Externas: 870 X 600 X 10 mm.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>				
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_ultra_delg_2_peli_35x43.jpg" alt="Negatoscopio Led Ultra Delgado Doble 35 x 43" title="Negastoscopio Doble Ultra Delgado 5 x 43">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                        <a href="#001"> Ir arriba </a>
+                                    </div>
+                                </div>
+                            </div>			
+                        </div>
+                    </div>
+                    <img src="img/linea.png"/>
+                    <!-- PPRODUCTO -->
+                    <div  class="divProductoView">
+                        <div class="division">
+                                <div class="divisonDiv">
+                                    <h5>EQUIPOS</h5>
+                                    <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                </div>
+                                <div class="iconDivision tituloNegatoscopio">
+                                    <img src='./img/iconAzul1.png'/>
+                                    <h6>NEGATOSCOPIOS LED</h6>
+                                </div>
+                            </div>
+                        <div class=" divImagen" id="ilu8">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 3 PELÍCULAS 35 X 43</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
+                                            <li>- Sistema de iluminación LED.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido mediante llave ON-OFF.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
+                                            <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
+                                            <li>- Medidas Externas: 1200 X 600 X 10 mm.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_ultra_delg_3_peli_35x43.jpg" alt="Negatoscopio Led Ultra Delgado Triple 35 x 43" title="Negastoscopio Triple Ultra Delgado 35 x 43">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                        <a href="#001"> Ir arriba </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/linea.png"/>
+                    <!-- PPRODUCTO -->
+                    <div class="divProductoView">
+                            <div class="division">
+                                    <div class="divisonDiv">
+                                        <h5>EQUIPOS</h5>
+                                        <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                    </div>
+                                    <div class="iconDivision tituloNegatoscopio">
+                                        <img src='./img/iconAzul1.png'/>
+                                        <h6>NEGATOSCOPIOS LED</h6>
+                                    </div>
+                                </div>
+                        <div class=" divImagen" id="ilu8">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 1 PELÍCULA 24 X 30</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
+                                            <li>- Sistema de iluminación LED.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido mediante llave ON-OFF.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
+                                            <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
+                                            <li>- Medidas Externas: 430 X 300 X 10 mm.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_ultra_delg_1_peli_24x30.jpg" alt="Negatoscopio Ultra Delgado Led 24 x 30" title="Negastoscopio 24 x 30">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                    <a href="#001"> Ir arriba </a>
+                                    </div>
+                                </div>
+                            </div>		
+                        </div>
+                    </div>
+                    <img src="img/linea.png"/>
+                    <!-- PPRODUCTO -->
+                    <div class="divProductoView">
+                        <div class="division">
+                                <div class="divisonDiv">
+                                    <h5>EQUIPOS</h5>
+                                    <h5>DIVISIÓN ILUMINACIÓN</h5>
+                                </div>
+                                <div class="iconDivision tituloNegatoscopio">
+                                    <img src='./img/iconAzul1.png'/>
+                                    <h6>NEGATOSCOPIOS LED</h6>
+                                </div>
+                        </div>
+                        <div class="divImagen" id="ilu9">
+                            <div class="">
+                                <div class="col-md-5">
+                                    <br>
+                                    <h2 class="name">NEGATOSCOPIO LED ULTRA DELGADO MARCA OBERTEC PARA 1 PELÍCULA 15 X 30</h2>
+                                    <h3 class="brand">INDUSTRIA ARGENTINA.</h3>
+                                    <hr class="name-line">
+                                    <h4 class="vip">Nueva línea de negatoscopios  Led ultra delgados. Equipo amigables con el medio ambiente, de diseño ligero y de gran durabilidad.</h4>
+                                    <br>
+                                </div>
+                                <div class="div-mobile col-sm-12">
+                                    <div class="col-md-5">
+                                        <p class="title-list">Características Principales:</p>
+                                        <br>
+                                        <ul class="description">							
+                                            <li>- Estructura  metálica con finas terminaciones.</li>
+                                            <li>- Pintado con pintura híbrida en polvo Epoxy-Polyester tratadas en un horno especial a más de 200ºC.</li>
+                                            <li>- Diseño ultra delgado, menos de 0,95 cm. de espesor.</li>
+                                            <li>- Sistema de iluminación LED.</li>
+                                            <li>- Libre de parpadeo.</li>
+                                            <li>- Iluminación uniforme.</li>
+                                            <li>- Sistema de encendido mediante llave ON-OFF.</li>
+                                            <li>- Novedoso sistema magnético  para sujeción de película radiográfica.</li>
+                                            <li>- Fuente switching  de alimentación, bajo consumo eléctrico.</li>
+                                            <li>- Sistema magnético para sujeción de película radiográfica en todo su plano.</li>
+                                            <li>- Medidas Externas: 350 X 295 X 10 mm.</li>
+                                        </ul>
+                                        <h4 class="vip">EQUIPO RECOMENDADO PARA ENSEÑANZA, INVESTIGACIÓN, VETERINARIA E INDUSTRIA.</h4>					
+                                    </div>
+                                    <div class="col-md-7">
+                                        <img class="full-width" src="img/negatos_led_obertec_ultra_delg_1_peli_15x30.jpg" alt="Negatoscopio Ultra Delgado Led 15 x 30" title="Negastoscopio 15 x 30">
+                                    </div>
+                                </div>
+                                <div class="irArriba">
+                                    <div class="irArribaText">
+                                        <img src='./img/iconAzul1.png'/>
+                                    <a href="#001"> Ir arriba </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>	
+                    <img src="img/linea.png"/>	
+                
+                    <!-- PPRODUCTO -->			
+        </div>
+	</div>	
         <div class="col-md-8 col-md-offset-1">
             <p class="bolder">Adquiera los productos OBERTEC a través de nuestra red de distribuidores.</p>
         </div>			

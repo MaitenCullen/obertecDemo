@@ -70,21 +70,56 @@
 	</div> 
 </header>
 <section>
-<div class="container-fluid divBannerBG">
-		<div class='divBanner'>
-			<div class="row col-md-10 p-3 divTextosBanner">
-				<div class="containerBannerText" id="000">
-						<h1 class="title-section">Equipos</h1>
-						<h3>DIVISIÓN LABORATORIO </h3>
+<img src="img/banner2.png" class="banner-ilu-01" id="000"/>
+		<div class="bannerIluminacion" id="001">
+			<div class="col-md-12 tituloBanner" >
+				<h1>EQUIPOS </h1>
+                <p> / </p>
+                <h2> DIVISIÓN LABORATORIO</h2>
+			</div>
+            <div class="tituloNegatoscopio-Banner" >
+                <img src='./img/iconAzul1.png'/>
+                <h4 class="catSeleccionada"id="seleccionadoProductos"></h4>
+            </div>
+		</div>
+		<!-- <div class="container-fluid divBannerBG--productos">
+				<div class='row bannerIluminacion'>
+					<div class="col-md-12 title-section">
+						<div class="div-iluminacion-texto">
+						<div class="containerBannerText" id="000">
+								<h1 >EQUIPOS</h1>
+						</div>
+						<div class="divTiulos">
+							<h2>DIVISIÓN LABORATORIO </h2>
+							<p> / </p>	
+							<h3 class="catSeleccionada"id="seleccionadoProductos"></h3>
+						</div>
+						</div>
+					</div>
 				</div>
-				<div>
-					<h4 class="catSeleccionada"id="seleccionado"></h4>
+		</div> -->
+	<!-- <div class="minibanner">
+		<img src="../demo/img/banner1.png"/>
+		<div class='row bannerIluminacion'>
+			<div class="col-md-12 title-section">
+				<div class="div-iluminacion-texto title-section-color">
+				   <div class="divTiulos" id="000">
+						<h1 >EQUIPOS</h1>
+						<p>/</p>
+						<h2>DIVISIÓN LABORATORIO </h2>	
+				   </div>
+				   <div class="divTiulos">
+					  <h3 class="catSeleccionada"id="seleccionado"></h3>
+				   </div>
 				</div>
 			</div>
 		</div>
-	</div>
+			<div>	
+		</div>
+	</div> -->
+
 	<div  class="container-fluid">
-		<div id='producto' class=" divProductoLab">
+		<div id='producto' class=" divProductoLab col-md-12" >
 		</div>
 	</div>
 </section>

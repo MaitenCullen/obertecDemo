@@ -3,8 +3,8 @@ const categorias = [
     {
         id:'1',
         nombre:'AGITADORES',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/agitadores.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/agitadores.png',
         categoria:'AGITADORES',
         seccion:'1'
     },
@@ -12,72 +12,72 @@ const categorias = [
     {
         id:'2',
         nombre:'BAÑOS TERMOSTÁTICOS',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/baños.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/baños1.png',
         categoria:'BAÑOS TERMOSTÁTICOS',
         seccion:'2'
     },
     {
         id:'3',
         nombre:'Producto3',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/biologia.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/biologia.png',
         categoria:'BIOLOGÍA MOLECULAR Y GENÉTICA',
         seccion:'3'
     },
     {
         id:'4',
         nombre:'CENTRIFUGAS',
-        icon:'../demo/img/iconB.png',
-        imagen:  '../demo/img/galeria/centrifugas.png',
+        icon:'./img/iconB.png',
+        imagen:  './img/galeria/centrifugas.png',
         categoria:'CENTRIFUGAS',
         seccion:'4'
     },
     {
         id:'5',
         nombre:'ESTUFAS',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/estufas.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/estufas.png',
         categoria:'ESTUFAS',
         seccion:'5'
     },
     {
         id:'6',
-        nombre:'HOMOGENEIZADOR',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/homegenei.png',
-        categoria:'HOMOGENEIZADOR',
+        nombre:'HOMOGENEIZADORES',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/homegenei.png',
+        categoria:'HOMOGENEIZADORES',
         seccion:'6'
     },
     {
         id:'7',
         nombre:'MANTOS Y PLANCHAS',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/mantos.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/mantos.png',
         categoria:'MANTOS Y PLANCHAS',
         seccion:'7'
     },
     {
         id:'8',
         nombre:'MANEJO DE SUSTANCIAS LIQUIDAS',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/manejo.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/manejo.png',
         categoria:'MANEJO DE SUSTANCIAS LIQUIDAS',
         seccion:'8'
     },
     {
         id:'9',
         nombre:'MICROSCOPIA',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/microscopia.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/microscopia.png',
         categoria:'MICROSCOPIA',
         seccion:'9'
     },
     {
         id:'10',
         nombre:'TERMOCONTROLADORES',
-        icon:'../demo/img/iconB.png',
-        imagen: '../demo/img/galeria/termocont.png',
+        icon:'./img/iconB.png',
+        imagen: './img/galeria/termocont.png',
         categoria:'TERMOCONTROLADORES',
         seccion:'10'
     },

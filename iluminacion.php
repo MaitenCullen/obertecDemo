@@ -76,13 +76,16 @@
 	<div class="container-fluid divBannerIlu">
 			<div class="row bannerIluminacion">
 				<div class="col-md-12 title-section">
-					<div>
-						<h1 class="">Equipos</h1>
-					</div>
-					<div class="divTiulos">
-						<h2> División iluminacion /</h2>
-						<h3>  Negatoscopios Led</h3>
-					</div>
+					<div class="div-iluminacion-texto">
+						<div>
+							<h1 class="">EQUIPOS</h1>
+						</div>
+						<div class="divTiulos">
+							<h2> DIVISIÓN ILUMINACIÓN  </h2>
+							<p> / </p>
+							<h3>   NEGATOSCOPIOS</h3>
+						</div>
+					</div>	
 				</div>
 			</div>
 	</div>
@@ -90,12 +93,15 @@
 		<div class='divLinkIluminacion'>
 			<div class="containerTextosIlu">
 				<div class="divTextIlu">
-					<img src='./img/iconB.png'/>
 					<h4> NEGATOSCOPIOS LED </h4>
+					<div class="div-icon-ilu">
+						<img src='./img/iconB.png'/>
+						<a href='iluminacionProductos.php'>
+							Ver
+						</a>
+					</div>
 				</div>
-				<a href='iluminacionProductos.php'>
-					Ver
-				</a>
+				
 			</div>
 		</div>		
 		</div>

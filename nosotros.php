@@ -95,16 +95,16 @@ Destinados a satisfacer diferentes necesidades de los sectores de laboratorio, i
 <p>En la actualidad, Industrias OBERTEC, cuenta con un destacado portfolio de productos integrado por equipos de gran respuesta y utilidad para el usuario. Por tal motivo, la misión de OBERTEC es continuar con su plan de desarrollo, ofreciendo productos innovadores que brinden soluciones significativas a cada necesidad específica.</p>
 				<div class="row">
 					<div class="col-md-6">
-						<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="termocalentadores.php" title="División Laboratorio">Equipos para Laboratorio</a></h2>
+						<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="laboratorio.php" title="División Laboratorio">Equipos para Laboratorio</a></h2>
 						<ul class="link-list">
-							<li><a href="termocalentadores.php" title="Termo Calentadores<">Termo Calentadores</a></li>
-							<li><a href="agitadores.php" title="Agitadores Magnéticos">Agitadores Magnéticos</a></li>
+							<li><a href="laboratorio.php" title="Termo Calentadores<">Termo Calentadores</a></li>
+							<li><a href="laboratorio.php" title="Agitadores Magnéticos">Agitadores Magnéticos</a></li>
 						</ul>
 					</div>
 					<div class="col-md-6">
 						<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="iluminacion.php">División Iluminación</a></h2>
 						<ul class="link-list">
-							<li><a href="negatoscopios.php" title="Negatoscopios">Negatoscopios Tecnología Led</a></li>
+							<li><a href="iluminacion.php" title="iluminacionProductos">Negatoscopios Tecnología Led</a></li>
 							<!--<li><a href="iluminador.php" title="iluminadores">Iluminadores Frontales Tecnología Led</a></li>-->
 						</ul>
 					</div>

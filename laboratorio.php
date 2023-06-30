@@ -17,12 +17,10 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<!-- <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <!-- AUTOCOMPLETE -->
-<link rel="stylesheet" href="awesomplete-gh-pages/awesomplete.css" />
-<script src="awesomplete-gh-pages/awesomplete.js" async></script>
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/awesomplete@1.1.2/awesomplete.css" /> -->
 
 <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -75,11 +73,17 @@
 
 <section>
 	<div class="container-fluid divBannerBG">
-		<div class='divBanner'>
+		<div class='row bannerIluminacion'>
 			<div class="row mobileCategorias">
-				<div class="col-md-12 p-3 mobileDivImg">
-					<h1 class="title-section">Equipos</h1>
-					<h3>DIVISIÓN LABORATORIO</h3>
+				<div class="col-md-12 p-3 mobileDivImg title-section">
+				<div class="div-iluminacion-texto">
+				    <div class="">
+						<h1 >EQUIPOS</h1>
+				    </div>
+				    <div class="divTiulos">
+				       <h2>DIVISIÓN LABORATORIO </h2>
+				   </div>
+				</div>
 				</div>
 			</div>
 		</div>

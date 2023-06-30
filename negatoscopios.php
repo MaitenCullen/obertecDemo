@@ -59,7 +59,7 @@
 					<li><a href="fabricacion.php" title="Fabricacion">FABRICACIÓN E IMPORTACIÓN</a></li>
 				  </ul>
 				</li>
-				<li class="active"><a href="negatoscopios.php" title="Equipos">EQUIPOS</a></li>
+				<li class="active"><a href="equipos.php" title="Equipos">EQUIPOS</a></li>
 				<li><a href="distribuidores.php" title="distribuidores">DISTRIBUIDORES</a></li>
 				<li><a href="contacto.php" title="Contacto">CONTACTO</a></li>
 			  </ul>

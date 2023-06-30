@@ -18,7 +18,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<!-- <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 

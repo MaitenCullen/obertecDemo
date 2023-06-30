@@ -23,7 +23,7 @@
 					<ul>
 						<li><a href="index.php" title="Inicio">INICIO</a></li>
 						<li><a href="nosotros.php" title="Obertec">OBERTEC</a></li>
-						<li><a href="negatoscopios.php" title="Equipos">EQUIPOS</a></li>
+						<li><a href="equipos.php" title="Equipos">EQUIPOS</a></li>
 						<li><a href="distribuidores.php" title="Distribuidores">DISTRIBUIDORES</a></li>  
 						<li><a href="contacto.php" title="Contacto">CONTACTO</a></li>
 					</ul>
@@ -57,7 +57,7 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
 
   <!-- FlexSlider -->

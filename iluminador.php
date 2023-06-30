@@ -55,7 +55,7 @@
 					<li><a href="fabricacion.php" title="Fabricacion">FABRICACIÓN</a></li>
 				  </ul>
 				</li>
-				<li class="active"><a href="negatoscopios.php" title="Equipos">EQUIPOS</a></li>
+				<li class="active"><a href="equipos.php" title="Equipos">EQUIPOS</a></li>
 				<!--<li><a href="distribuidores.php" title="distribuidores">DISTRIBUIDORES</a></li>-->				
 				<li><a href="contacto.php" title="Contacto">CONTACTO</a></li>
 			  </ul>
@@ -82,17 +82,17 @@
 				<nav class="nav-equipos">
 					<div class="active"><span class="glyphicon glyphicon-triangle-right"></span>División Iluminación</div>	
 					<ul id="div-ilum">
-						<li><span class="glyphicon glyphicon-stop"></span><a href="negatoscopios.php" title="Negatoscopios Tecnología Led">Negatoscopios Tecnología Led</a></li>
+						<li><span class="glyphicon glyphicon-stop"></span><a href="iluminacionProductos.php" title="Negatoscopios Tecnología Led">Negatoscopios Tecnología Led</a></li>
 						<li class="current"><span class="glyphicon glyphicon-stop"></span><a href="iluminador.php" title="Iluminadores Frontales Tecnología Led">Iluminadores Frontales Tecnología Led</a></li>
 					</ul>
 				</nav>
 				<nav class="nav-equipos">
 					<div><span class="glyphicon glyphicon-triangle-right"></span>División Laboratorio</div>
 					<ul id="div-labor">
-						<li><span class="glyphicon glyphicon-stop"></span><a href="termocalentadores.php" title="Termo Calentadores">Termo Calentadores</a></li>
-						<li><span class="glyphicon glyphicon-stop"></span><a href="agitadores.php" title="Agitadores Magnéticos">Agitadores Magnéticos</a></li>
-						<li><span class="glyphicon glyphicon-stop"></span><a href="centrifugas.php" title="Centrífugas de Laboratorio">Centrífugas de Laboratorio</a></li>
-						<li><span class="glyphicon glyphicon-stop"></span><a href="microscopios.php" title="Microscopios">Microscopios</a></li>
+						<li><span class="glyphicon glyphicon-stop"></span><a href="laboratorio.php" title="Termo Calentadores">Termo Calentadores</a></li>
+						<li><span class="glyphicon glyphicon-stop"></span><a href="laboratorio.php" title="Agitadores Magnéticos">Agitadores Magnéticos</a></li>
+						<li><span class="glyphicon glyphicon-stop"></span><a href="laboratorio.php" title="Centrífugas de Laboratorio">Centrífugas de Laboratorio</a></li>
+						<li><span class="glyphicon glyphicon-stop"></span><a href="laboratorio.php" title="Microscopios">Microscopios</a></li>
 						
 					</ul>
 				</nav>

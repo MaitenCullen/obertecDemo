@@ -160,16 +160,16 @@
         	<div class="banner text-left">
 				<a href="termocalentadores.php"><img src="img/div-lab.jpg" title="Laboratorio" alt="Laboratorio" class="f-width"></a>
 				<div>
-					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="termocalentadores.php"  title="Ir a División Laboratorio">DIVISIÓN LABORATORIO</a></h2>	
+					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="laboratorio.php"  title="Ir a División Laboratorio">DIVISIÓN LABORATORIO</a></h2>	
 					<a href="termocalentadores.php" class="blue-link" title="Ingresar">Ingresar</a>
 				</div>
 			</div>
         </div>
         <div class="col-md-6" style="border-bottom: 2.5px solid #000;">
           <div class="banner text-left">
-			  <a href="negatoscopios.php" title="Ir a División Iluminación"><img src="img/div-ilu.jpg" title="Iluminación" alt="Iluminación" class="f-width"></a>
+			  <a href="iluminacion.php" title="Ir a División Iluminación"><img src="img/div-ilu.jpg" title="Iluminación" alt="Iluminación" class="f-width"></a>
 				<div>
-					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="negatoscopios.php" title="Ir a División Iluminación">DIVISIÓN ILUMINACIÓN</a></h2>	
+					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="iluminacion.php" title="Ir a División Iluminación">DIVISIÓN ILUMINACIÓN</a></h2>	
 					<a href="negatoscopios.php" class="blue-link" title="Ingresar">Ingresar</a>
 				</div>
 			</div>

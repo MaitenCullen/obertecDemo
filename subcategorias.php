@@ -18,7 +18,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+<!-- <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 
@@ -64,22 +64,26 @@
 			  </ul>
 			</div>
 		</div>
-		<div class="col-md-1">
+		<div class="col-md-1"> 
 		</div>
 	  </nav>
 	</div> 
 </header>
 <section>
 <div class="container-fluid divBannerBG">
-		<div class='divBanner'>
-			<div class="row col-md-10 p-3 divTextosBanner">
-				<div class="">
-						<h1 class="title-section">Equipos</h1>
-						<h3>DIVISIÓN LABORATORIO / </h3>
+		<div class='row bannerIluminacion'>
+			<div class="col-md-12 title-section">
+				<div class="div-iluminacion-texto">
+				    <div class="">
+						<h1 >EQUIPOS</h1>
+				    </div>
+				    <div class="divTiulos">
+				       <h2>DIVISIÓN LABORATORIO </h2>
+					   <p> / </p>
+					  <h3 class="catSeleccionada"id="seleccionado"></h3>
+				   </div>
 				</div>
-				<div>
-					<h4 class="catSeleccionada"id="seleccionado"></h4>
-				</div>
+				
 			</div>
 		</div>
 		<!-- <div class="select-box">

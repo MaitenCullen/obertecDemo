@@ -33,7 +33,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link href="css/main.css" rel="stylesheet">
+<link href="css/main.css?v=1.0" rel="stylesheet">
 <link href="css/carousel.css" rel="stylesheet">
 <script src="js/modernizr.js"></script>
 
@@ -76,14 +76,18 @@
 		<div class='row bannerIluminacion'>
 			<div class="row mobileCategorias">
 				<div class="col-md-12 p-3 mobileDivImg title-section">
-				<div class="div-iluminacion-texto">
-				    <div class="">
-						<h1 >EQUIPOS</h1>
-				    </div>
-				    <div class="divTiulos">
-				       <h2>DIVISIÓN LABORATORIO </h2>
-				   </div>
+						<div class="div-iluminacion-texto">
+							<div class="">
+								<h1 >EQUIPOS</h1>
+							</div>
+							<div class="divTiulos">
+							<h2>DIVISIÓN LABORATORIO </h2>
+							
+						</div>
+					</div>
 				</div>
+				<div class="div-link-navegacion">
+					<a href="iluminacion.php"> Ir a División Iluminación </a>
 				</div>
 			</div>
 		</div>
@@ -134,7 +138,7 @@
 <?php
 	require_once("footer.php");
 ?>
-<script src= "js/imagenes.js"></script>
+<script src= "js/imagenes.js?v=1.0"></script>
 <!-- <script src="https://cdn.jsdelivr.net/npm/awesomplete@1.1.2/awesomplete.min.js"></script> -->
 <!-- 
 <script src= "js/search.js"></script> -->

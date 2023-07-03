@@ -32,7 +32,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link href="css/main.css" rel="stylesheet">
+<link href="css/main.css?v=1.0" rel="stylesheet">
 <link href="css/carousel.css" rel="stylesheet">
 <script src="js/modernizr.js"></script>
 
@@ -70,7 +70,7 @@
 	</div> 
 </header>
 <section>
-<img src="img/banner2.png" class="banner-ilu-01" id="000"/>
+<img src="img/banner2.png" class="banner-ilu-01 full-width" id="000"/>
 		<div class="bannerIluminacion" id="001">
 			<div class="col-md-12 tituloBanner" >
 				<h1>EQUIPOS </h1>
@@ -126,7 +126,7 @@
 <?php
 	require_once("footer.php");
 ?>
-<script src= "js/productosLaboratorio.js"></script>
+<script src= "js/productosLaboratorio.js?v=0.1"></script>
 
 
 </body>

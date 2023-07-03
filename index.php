@@ -32,7 +32,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link href="css/main.css" rel="stylesheet">
+<link href="css/main.css?v=1.0" rel="stylesheet">
 <link href="css/carousel.css" rel="stylesheet">
 	
 <script src="js/modernizr.js"></script>
@@ -112,7 +112,7 @@
 			</div>
 		</div>
 		<div class="col-md-6 col-sm-6 text-center">
-			 <p id="highlight-01">Destinados a satisfacer diferentes necesidades en laboratorio, industria, investigacion y educación, los equipos OBERTEC, se destacan por su excelente performance con un justo equilibrio precio calidad. </p>
+			 <p id="highlight-01" >Destinados a satisfacer diferentes necesidades en laboratorio, industria, investigacion y educación, los equipos OBERTEC, se destacan por su excelente performance con un justo equilibrio precio calidad. </p>
 			<a href="nosotros.php" class="grey-link" title="leer más">Leer más...</a>
 		</div>
 	</div>
@@ -130,19 +130,19 @@
         </div>
         <div class="col-md-4" style="border-bottom: 2.5px solid #000;">
         	<div class="banner text-left">
-				<a href="termocalentadores.php" title="Ir a División Laboratorio"><img src="img/div-lab.jpg" title="Equipos de laboratorio" alt="Microscopio en un laboratorio" class="f-width"></a>
+				<a href="laboratorio.php" title="Ir a División Laboratorio"><img src="img/div-lab.jpg" title="Equipos de laboratorio" alt="Microscopio en un laboratorio" class="f-width"></a>
 				<div>
-					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="termocalentadores.php" title="Ir a División Laboratorio">EQUIPOS PARA LABORATORIO</a></h2>	
-					<a href="termocalentadores.php" class="blue-link" title="Ingresar">Ingresar</a>
+					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="laboratorio.php" title="Ir a División Laboratorio">EQUIPOS PARA LABORATORIO</a></h2>	
+					<a href="laboratorio.php" class="blue-link" title="Ingresar">Ingresar</a>
 				</div>
 			</div>
         </div>
         <div class="col-md-4" style="border-bottom: 2.5px solid #000;">
           <div class="banner text-left">
-			  <a href="equipos.php" title="negatoscopios"><img src="img/div-ilu.jpg" title="Iluminación" alt="Negatoscopio" class="f-width"></a>
+			  <a href="iluminacion.php" title="negatoscopios"><img src="img/div-ilu.jpg" title="Iluminación" alt="Negatoscopio" class="f-width"></a>
 				<div>
 					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="iluminacion.php" title="Ir a División Iluminación">DIVISIÓN ILUMINACIÓN</a></h2>	
-					<a href="equipos.php" class="blue-link" title="Ingresar">Ingresar</a>
+					<a href="iluminacion.php" class="blue-link" title="Ingresar">Ingresar</a>
 				</div>
 			</div>
         </div>
@@ -158,10 +158,10 @@
         </div>
         <div class="col-md-6" style="border-bottom: 2.5px solid #000;">
         	<div class="banner text-left">
-				<a href="termocalentadores.php"><img src="img/div-lab.jpg" title="Laboratorio" alt="Laboratorio" class="f-width"></a>
+				<a href="laboratorio.php"><img src="img/div-lab.jpg" title="Laboratorio" alt="Laboratorio" class="f-width"></a>
 				<div>
 					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="laboratorio.php"  title="Ir a División Laboratorio">DIVISIÓN LABORATORIO</a></h2>	
-					<a href="termocalentadores.php" class="blue-link" title="Ingresar">Ingresar</a>
+					<a href="laboratorio.php" class="blue-link" title="Ingresar">Ingresar</a>
 				</div>
 			</div>
         </div>
@@ -170,7 +170,7 @@
 			  <a href="iluminacion.php" title="Ir a División Iluminación"><img src="img/div-ilu.jpg" title="Iluminación" alt="Iluminación" class="f-width"></a>
 				<div>
 					<h2 class="highlight-02"><span class="glyphicon glyphicon-triangle-right"></span><a href="iluminacion.php" title="Ir a División Iluminación">DIVISIÓN ILUMINACIÓN</a></h2>	
-					<a href="negatoscopios.php" class="blue-link" title="Ingresar">Ingresar</a>
+					<a href="iluminacion.php" class="blue-link" title="Ingresar">Ingresar</a>
 				</div>
 			</div>
         </div>
@@ -220,3 +220,5 @@
 <?php
 	require_once("footer.php");
 ?>
+
+</body>

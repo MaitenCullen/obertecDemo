@@ -87,7 +87,7 @@ img {
 }
 
 .wrapper {
-	max-width: 1800px;
+	width: 100%;
 	margin: auto;
 	background-color: #fff;
 }
@@ -152,6 +152,48 @@ footer .container-fluid {
 	display: flex;
     justify-content: flex-start;
 	align-items: center;
+}
+.div-link-navegacion{
+	display: flex;
+    width: 98%;
+    align-items: center;
+    flex-direction: row;
+    padding: 5p;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.div-link-navegacion a{
+	color: #fff;
+	font-family: 'HelveticaNeueLTStd-Lt';
+	font-size: 2rem;
+	letter-spacing: 1px;
+}
+.div-link-navegacion a:hover{
+	color:#1f97e7;
+	font-family: 'HelveticaNeueLTStd-Lt';
+	font-size: 2rem;
+	letter-spacing: 1px;
+}
+.div-link-navegacion-ilu{
+	display: flex;
+    width: 98%;
+    align-items: center;
+    flex-direction: row;
+    padding: 5p;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.div-link-navegacion-ilu a{
+	color: #fff;
+	font-family: 'HelveticaNeueLTStd-Lt';
+	font-size: 2rem;
+	letter-spacing: 1px;
+}
+.div-link-navegacion-ilu a:hover{
+	color:#072c46;
+	font-family: 'HelveticaNeueLTStd-Lt';
+	font-size: 2rem;
+	letter-spacing: 1px;
 }
 footer {
 	background: #212530;
@@ -258,7 +300,13 @@ footer a:focus {
 .blue-link:hover {
 	text-transform: uppercase;
 	text-decoration: none;
+	color: #020e16;
 }
+/* .blue-link:visited {
+	text-decoration: none;
+	color: #1a4b6b;
+} */
+
 
 #info > p {
 	text-align: left;
@@ -488,7 +536,9 @@ button {
 	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 2.5rem;
 	letter-spacing: 1px;
-	
+}
+.divIngresar h6:hover{
+	color: #c6c7c7;
 }
 .divIngresar img {
 	width: 70%;
@@ -709,6 +759,9 @@ hr.bolder-line {
 	text-align: left;
 	margin: 0;
 }
+.tituloNegatoscopio a:hover{
+	color: #0980af;
+}
 .tituloNegatoscopio img{
 	width: 15px;
 	height: 20px;
@@ -767,7 +820,9 @@ hr.bolder-line {
 	font-size: 2rem;
 	letter-spacing: 1px;
 }
-
+.div-icon-ilu a:hover{
+	color:#197bbd;
+}
 
 .divProductosIlu{
 	display: flex;
@@ -792,8 +847,13 @@ hr.bolder-line {
 	font-size: 3rem;
 	color: #1a4b6b;
 	letter-spacing: 1px;
-
+    flex-direction: column;
 }
+
+.divProximamente a:hover{
+	color: #1a4b6b;;
+}
+
 .containerProductosIlu{
     width: 100%;
     display: flex;
@@ -821,7 +881,7 @@ hr.bolder-line {
 	letter-spacing: 1px;
 }
 .categoriaProductosDiv a {
-	color: #1a4b6b;
+	color:  #1a4b6b;
 	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	font-size: 1.5rem;
 	letter-spacing: 1px;
@@ -841,6 +901,22 @@ hr.bolder-line {
     display: flex;
     justify-content: flex-end;
 }
+.div-links-producto{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.div-links-producto a{
+	color:#499ec9;
+	font-family: 'HelveticaNeueLTStd-Md-condensed';
+	font-size: 1.5rem;
+	line-height: 15px;
+	letter-spacing: 1px;
+	margin-top: 7px;
+}
+.div-links-producto a:hover{
+	color:#12344b
+}
 .irArribaText{
 	text-align: left;
 	display: flex;
@@ -856,7 +932,7 @@ hr.bolder-line {
 	letter-spacing: 1px;
 }
 .irArribaText a:hover{
-	color: #428daa;
+	color: #0980af;
 }
 .irArribaText img{
 	width: 15px;
@@ -961,6 +1037,9 @@ hr.bolder-line {
 	justify-content: center;
 
 }
+.divTextCategoria a:hover{
+	color: #c6c7c7;
+}
 .divTextCategoria img{
 	width: 25%;
 }
@@ -993,6 +1072,11 @@ hr.bolder-line {
 	font-family: 'HelveticaNeueLTStd-Md-condensed';
 	color: #1a4b6b;
 	font-size: 2rem;
+
+}
+.imgSubcategoria a:hover{
+
+	color: #0980af;
 
 }
 /* .imgSubcategoria img {
@@ -1181,13 +1265,138 @@ hr.bolder-line {
 }
 
 
-
-@media (min-width: 1650px) {
+@media(min-width:2001px){
+	.bannerIluminacion{
+		margin-bottom: 0;
+	}
+	.imgGaleria{
+		height: 550px;
+	   }
+	.imgGaleria a{
+		font-size: 2.6rem;
+		line-height: 2.8rem;
+	}
+	.textCategoria p{
+	    font-size: 3.5rem;
+    	line-height: 3.8rem;
+	}
+	.categoriaProductosDiv {
+		width: 350px;
+	}
+	.categoriaProductosDiv h5{
+		font-size: 2.5rem;
+	}
+	.categoriaProductosDiv a{
+		font-size: 2.5rem;
+	}
+	.divImgIlu img {
+		height: 300px;
+	}
+	.textCategoria p{
+		font-size: 4rem;
+		line-height: 4rem;
+		}
+		.divTextCategoria a{
+			font-size: 3.5rem;
+		}
+		.tituloBanner h1{
+			font-size: 4rem;
+		}
+		.tituloBanner p{
+			font-size: 4rem;
+		}
+		.tituloBanner h2{
+			font-size: 4%;
+		}
+		
+		.tituloNegatoscopio-Banner h4 {
+			font-size: 4rem;
+		}
+		.division h5{
+			font-size: 3.5rem;
+			line-height: 25px;
+		}
+		.division h6{
+			font-size: 3rem;
+			line-height: 25px;
+		}
+		
+		h2.name{
+			font-size: 3.5rem;
+			line-height: 4.25rem;
+		}
+		.vip{
+			font-size: 2.8rem;
+			line-height: 3rem;
+		   }
+		.description{
+			font-size: 3rem;
+		}
+}
+@media (min-width: 1650px) and (max-width:2000px)  {
 
 	.recuadro-negro.text-left {
 		height: 445px;
 	}
 
+	.textCategoria p{
+	font-size: 3.5rem;
+	line-height: 3.8rem;
+	}
+	.divTextCategoria a{
+		font-size: 2.5rem;
+	}
+	.tituloBanner h1{
+		font-size: 3.5rem;
+	}
+	.tituloBanner p{
+		font-size: 3.5rem;
+	}
+	.tituloBanner h2{
+		font-size: 3.5rem;
+	}
+	
+	.tituloNegatoscopio-Banner h4 {
+		font-size: 3.5rem;
+	}
+	.division h5{
+		font-size: 3rem;
+    	line-height: 25px;
+	}
+	.division h6{
+		font-size: 2.7rem;
+    	line-height: 25px;
+	}
+	
+	h2.name{
+		font-size: 3.25rem;
+		line-height: 4.25rem;
+	}
+	.description{
+		font-size: 2.7rem;
+	}
+	.categoriaProductosDiv{
+		width: 260px;
+	}
+	.categoriaProductosDiv h5{
+		font-size: 2rem;
+	}
+	.categoriaProductosDiv a{
+		font-size: 2rem;
+	}
+	.divImgIlu img {
+		height: 200px;
+	}
+	.bannerIluminacion{
+		margin-bottom: 0;
+	}
+   .imgGaleria{
+	height: 450px;
+   }
+   .vip{
+	font-size: 2rem;
+   }
+   
 }
 
 @media (min-width: 1400px) {
@@ -1416,6 +1625,9 @@ hr.bolder-line {
 	}
 	.divBannerBG{
 		height: calc(100vw / 3);
+	}
+	.div-link-navegacion a{
+		font-size: 1rem;
 	}
 	.imgSubcategoria {
 		width: 90%;

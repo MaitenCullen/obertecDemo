@@ -32,7 +32,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link href="css/main.css" rel="stylesheet">
+<link href="css/main.css?v=1.0" rel="stylesheet">
 <link href="css/carousel.css" rel="stylesheet">
 	
 <script src="js/modernizr.js"></script>
@@ -86,6 +86,9 @@
 							<h3>   NEGATOSCOPIOS</h3>
 						</div>
 					</div>	
+				</div>
+				<div class="div-link-navegacion-ilu">
+					<a href="laboratorio.php"> Ir a División Laboratorio </a>
 				</div>
 			</div>
 	</div>

@@ -32,7 +32,7 @@
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<link href="css/main.css" rel="stylesheet">
+<link href="css/main.css?v=1.0" rel="stylesheet">
 <link href="css/carousel.css" rel="stylesheet">
 	
 <script src="js/modernizr.js"></script>
@@ -71,7 +71,7 @@
 	</div> 
 </header>
 <section>
-    <img src="img/linea.png" class="banner-ilu-01"/>
+    <img src="img/linea.png" class="banner-ilu-01 full-width"/>
         <div class="bannerIluminacion" id="001">
 			<div class="col-md-12 tituloBanner">
 				<h1>EQUIPOS </h1>
@@ -239,15 +239,18 @@
                                 </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                        <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                 <!-- <hr class="name-line"> -->
                     <div class="divProductoView">
                         <div class="division">
@@ -295,15 +298,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                    <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="img/linea.png"/>    
+                    <img src="img/linea.png" class="full-width"/>    
                 <!-- PRODUCTO -->
                     <div class="divProductoView">
                         <div class="division">
@@ -350,15 +356,18 @@
                                         </div>		
                                     </div>
                                     <div class="irArriba">
-                                        <div class="irArribaText">
-                                            <img src='./img/iconAzul1.png'/>
-                                        <a href="#001"> Ir arriba </a>
-                                        </div>
+                                        <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                                <img src='./img/iconAzul1.png'/>
+                                                <a href="#001"> Ir arriba </a>
+                                            </div>  
+                                             <a href="iluminacion.php"> Volver </a>
+                                        </div>     
                                     </div>
                                 </div>
                             </div>					
                     </div>
-                <img src="img/linea.png"/>
+                <img src="img/linea.png" class="full-width"/>
                     <!-- PPRODUCTO -->
                     <div  class="divProductoView">
                         <div class="division">
@@ -406,15 +415,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                    <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>
                         </div>	
                     </div> 
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                 <!-- PPRODUCTO -->
                     <div  class="divProductoView">
                         <div class="division">
@@ -462,15 +474,18 @@
                                     </div>
                                 </div> 	
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                    <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>
                         </div>  
                     </div>  
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                 <!-- PPRODUCTO -->
                     <div  class="divProductoView">
                         <div class="division">
@@ -517,15 +532,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                    <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>
                         </div>
                     </div>     				
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                     <!-- PPRODUCTO -->
                     <div  class="divProductoView">
                         <div class="division">
@@ -573,15 +591,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                    <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                     <!-- PPRODUCTO -->
                     <div  class="divProductoView">
                         <div class="division">
@@ -628,15 +649,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                        <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>	
                         </div>
                     </div>
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                     <!-- PPRODUCTO -->
                     <div  class="divProductoView">
                         <div class="division">
@@ -683,15 +707,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                        <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>			
                         </div>
                     </div>
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                     <!-- PPRODUCTO -->
                     <div  class="divProductoView">
                         <div class="division">
@@ -738,15 +765,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                        <a href="#001"> Ir arriba </a>
-                                    </div>
+                                     <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                     <!-- PPRODUCTO -->
                     <div class="divProductoView">
                             <div class="division">
@@ -793,15 +823,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                    <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>     
                                 </div>
                             </div>		
                         </div>
                     </div>
-                    <img src="img/linea.png"/>
+                    <img src="img/linea.png" class="full-width"/>
                     <!-- PPRODUCTO -->
                     <div class="divProductoView">
                         <div class="division">
@@ -848,15 +881,18 @@
                                     </div>
                                 </div>
                                 <div class="irArriba">
-                                    <div class="irArribaText">
-                                        <img src='./img/iconAzul1.png'/>
-                                    <a href="#001"> Ir arriba </a>
-                                    </div>
+                                    <div class="div-links-producto">
+                                            <div class="irArribaText">
+                                            <img src='./img/iconAzul1.png'/>
+                                            <a href="#001"> Ir arriba </a>
+                                        </div>  
+                                        <a href="iluminacion.php"> Volver </a>
+                                    </div>                                   
                                 </div>
                             </div>
                         </div>
                     </div>	
-                    <img src="img/linea.png"/>	
+                    <img src="img/linea.png" class="full-width"/>	
                 
                     <!-- PPRODUCTO -->			
         </div>

@@ -376,21 +376,25 @@ const params = new URLSearchParams(window.location.search);
                             `</div>`+
                         `</div>`+
                         `<div class="irArriba">`+
-                            `<div class="irArribaText">`+
-                                `<img src='./img/iconAzul1.png'/>`+
-                                `<a href="#000"> Ir arriba </a>`+
-                            `</div>`+
+                            `<div class="div-links-producto">`+
+                                ` <div class="irArribaText">`+
+                                        `<img src='./img/iconAzul1.png'/>`+
+                                        `<a href="#000"> Ir arriba </a>`+
+                                    `</div>`+ 
+                                `<a href="laboratorio.php"> Volver </a>`+
+                            `</div>`+  
                         `</div>`+
                     `</div>`+
                 `</div>`+
             `</div>`+
-             `<img src="./img/banner4.png" style="margin-bottom:3%"/>` 
+             `<img src="./img/banner4.png" style="margin-bottom:3%" class="full-width"/>` 
             )
         } else {
             return (
             `<div class="divProximamente">` +
                 '<p>' + 'PROXIMAMENTE VAS A ENCONTRAR MUCHOS MAS PRODUCTOS' +
                 '</P>'+
+                `<a href="laboratorio.php"> Volver </a>`+
             `</div>`
             ) 
         } }).join('');
